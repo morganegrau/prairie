@@ -3,6 +3,7 @@ body{
 	background-repeat: no-repeat;
 	background-size:cover;
 	background-attachment: fixed;
+	font-family: Open Sans;
 }
 
 ul{
@@ -53,7 +54,6 @@ p.sub {
 	color:white;
 	margin-left:10%;
 	margin-right:10%;
-	font-family: Open Sans;
 }
 
 .header{
