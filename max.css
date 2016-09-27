@@ -1,15 +1,17 @@
 body{
 	background: url('maxi-challenge-1/images/background.jpg');
-	background-repeat: no-repeat;
-	background-size:cover;
+	background-position:center;
+	background-size: cover;
 	background-attachment: fixed;
+	background-blend-mode:soft-light;
+	background-color:#333;
 	font-family: Open Sans;
 }
 
 ul{
 	list-style-type: none;
 	text-align: center;
-	margin-top:5%;
+	margin-top:0;
 }
 
 ul li{
@@ -56,9 +58,6 @@ p.sub {
 	color:white;
 	margin-left:10%;
 	margin-right:10%;
-}
-
-.header{
 }
 
 .projet{
