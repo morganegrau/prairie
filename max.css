@@ -36,6 +36,7 @@ h1{
 
 h2{
 	margin-top:5%;}
+
 h3{
 	text-align: center;
 }
@@ -46,6 +47,7 @@ hr{
 p.sub {
 	opacity:0.5;
 }
+
 .h{
 	text-align:left;
 }
@@ -95,30 +97,39 @@ p.sub {
     padding: 1%;
 }
 
-.up{
-
+.dates{
+	margin:0;
+	text-align: left;
 }
 
+.jour {
+	padding-right: 3%;
+}
+
+.nbre {
+	opacity:1;
+	font-weight: bold;
+	padding-right: 10%;
+}
+.ville{
+	padding-right: 10%;
+}
+.bar{
+	text-align: left;
+}
 .viewall{
 	text-align: center;
 	margin-bottom:8%;
 }
-.bas{
-	width:30%;
-	height:100%;
-	display:inline-block;
-    margin-bottom: 0;
-    padding: 1%;
-}
 .casesbas {
 	display: inline-block;
+	padding-bottom: 4%;
 }
 .caseba {
 	width: 32%;
-	height:100%;
 	display:inline-block;
-	background-size:cover;
 	padding-left: 1%;
+	vertical-align: top;
 }
 
 .glyph{
