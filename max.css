@@ -141,3 +141,17 @@ p.sub {
 i{
 	margin-right:1%;
 }
+
+/*Page Bio*/
+
+.topphoto{
+	height:300px;
+}
+.tof{
+	background: url('maxi-challenge-1/images/featured-bio.jpg');
+	background-size: 50%;
+	color:transparent;
+	background-position:center;
+	height: 100%;
+	background-repeat: no-repeat;
+}
