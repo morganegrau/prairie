@@ -51,8 +51,6 @@ p.sub {
 
 .container{
 	color:white;
-	margin-left:10%;
-	margin-right:10%;
 	background: url('maxi-challenge-1/images/background.jpg');
 	background-position:center;
 	background-size: cover;
@@ -60,7 +58,10 @@ p.sub {
 	background-blend-mode:soft-light;
 	background-color:#333;
 }
-
+.container2{
+	padding-left:10%;
+	padding-right:10%;
+}
 .projet{
 	text-align:center;
 	padding-top: 10%;
@@ -162,6 +163,6 @@ i{
 	margin-top: 4%;
 	font-family: Open Sans;
 	color:white;
-	padding-left:26%;
-	padding-right:25%;
+	padding-left:12%;
+	padding-right:12%;
 }
