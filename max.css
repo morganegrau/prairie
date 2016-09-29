@@ -1,10 +1,5 @@
 body{
-	background: url('maxi-challenge-1/images/background.jpg');
-	background-position:center;
-	background-size: cover;
-	background-attachment: fixed;
-	background-blend-mode:soft-light;
-	background-color:#333;
+	background-color: black;
 	font-family: Open Sans;
 }
 
@@ -45,21 +40,32 @@ h3{
 hr{
 	opacity:0.5;
 }
-
+table { 
+    border-collapse: collapse; 
+}
+th {
+	text-align: left;
+}
+tr {
+	border: solid rgba(255, 255, 255, 0.2);
+    border-width: 1px 0 1px 0;
+}
 p.sub {
 	opacity:0.5;
 }
-
-.h{
-	text-align:left;
-}
-
 .container{
 	color:white;
-	margin-left:10%;
-	margin-right:10%;
+	background: url('maxi-challenge-1/images/background.jpg');
+	background-position:center;
+	background-size: cover;
+	background-attachment: fixed;
+	background-blend-mode:soft-light;
+	background-color:#333;
 }
-
+.container2{
+	padding-left:10%;
+	padding-right:10%;
+}
 .projet{
 	text-align:center;
 	padding-top: 10%;
@@ -74,6 +80,7 @@ p.sub {
 	display:inline-block;
 	position:relative;
 }
+
 .all{
 	display:inline-block;
 	position:absolute;
@@ -91,30 +98,9 @@ p.sub {
 	height:100%;
 	display:inline-block;
 	border: solid rgba(255, 255, 255, 0.2);
-    border-width: 1px 1px 1px 0;
+    border-width: 1px 0 1px 0;
     margin-bottom: 0;
     padding: 1%;
-}
-
-.dates{
-	margin:0;
-	text-align: left;
-}
-
-.jour {
-	padding-right: 3%;
-}
-
-.nbre {
-	opacity:1;
-	font-weight: bold;
-	padding-right: 10%;
-}
-.ville{
-	padding-right: 10%;
-}
-.bar{
-	text-align: left;
 }
 .viewall{
 	text-align: center;
@@ -123,7 +109,9 @@ p.sub {
 .casesbas {
 	display: inline-block;
 	padding-bottom: 4%;
+	color:white;
 }
+
 .caseba {
 	width: 32%;
 	display:inline-block;
@@ -141,3 +129,29 @@ p.sub {
 i{
 	margin-right:1%;
 }
+
+/*Page Bio*/
+
+.topphoto{
+	height:380px;
+}
+.tof{
+	background: url('maxi-challenge-1/images/featured-bio.jpg');
+	background-size: 60%;
+	color:transparent;
+	background-position:center;
+	height: 100%;
+	background-repeat: no-repeat;
+}
+.bio{
+	background-color:black;
+	margin-top: 4%;
+	font-family: Open Sans;
+	color:white;
+	padding-left:12%;
+	padding-right:12%;
+	padding-bottom: 5%;
+	opacity: 0.5;
+}
+/*page news*/
+
