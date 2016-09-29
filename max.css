@@ -153,5 +153,23 @@ i{
 	padding-bottom: 5%;
 	opacity: 0.5;
 }
-/*page news*/
+/*page News*/
 
+/*page Tour*/
+
+h8 {
+	font-size:350%;
+	font-weight:lighter;}
+
+p.subt { 
+	color:white; 	
+    font-size:150%;
+    margin-top: 5%; }
+
+.projet1 {
+	text-align:center;
+    padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+h9 {text-align:center;}
