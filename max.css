@@ -173,3 +173,19 @@ p.subt {
 }
 
 h9 {text-align:center;}
+
+/*page Video*/
+
+.case1 {
+	width:30%;
+	height:100%;
+	display:inline-block;
+    margin-bottom: 0;
+    padding: 1%;
+    border : none;
+}
+
+h6 {
+	text-align: center;
+	color:white;
+    font-size: 15px;}
