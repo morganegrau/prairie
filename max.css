@@ -47,6 +47,7 @@ table {
 }
 th {
 	text-align: left;
+	height: 50px;
 }
 tr {
 	border: solid rgba(255, 255, 255, 0.2);
@@ -124,10 +125,12 @@ tr {
 .glyph{
 	text-align:center;
 	color:white;
+	padding-top:3%;
 }
 .footer{
 	margin-top:5%;
 	padding-bottom: 5%;
+	color:white;
 }
 i{
 	margin-right:1%;
@@ -186,6 +189,7 @@ i{
 	background-size: cover;
 	background-attachment: fixed;
 	padding-bottom: 5%;
+	height:650px;
 }
 .container4bis{
 	background: url('maxi-challenge-1/images/background.jpg');
@@ -199,6 +203,7 @@ i{
 }
 #h1max4{
 	text-align: center;
+	font-size:450%;
 	color:white;
 	padding: 0;
 	margin: 0;
@@ -220,5 +225,18 @@ i{
 
 .listezik{
 	width: 70%;
+}
+#h2max4 {
+	margin: 0;
+	font-weight: lighter;
+}
+th #concert{
+	opacity: 0.5;
+	height: 50px;
 
+}
+.basmax4{
+	padding-top:18%;
+	padding-left:10%;
+	padding-right:10%;
 }
