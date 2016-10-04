@@ -53,6 +53,10 @@ tr {
 	border: solid rgba(255, 255, 255, 0.2);
     border-width: 1px 0 1px 0;
 }
+a{
+	text-decoration:none;
+	color:white;
+}
 .sub {
 	opacity:0.5;
 	font-weight:bold;
@@ -221,16 +225,31 @@ i{
 .aeolus{
 	width: 30%;
 	padding-top: 2%;
+	text-align: center;
 }
-
+.aeoluslist{
+	margin-top:10%;
+}
+.sub2 {
+	opacity:0.3;
+	font-weight:bold;
+	background-color:black;
+	background-opacity:0.5;
+	margin-bottom: 3%;
+	margin-top:0;
+	font-size:70%;
+	padding-top:3%;
+	padding-bottom:3%;
+}
 .listezik{
 	width: 70%;
+	margin-left: 5%;
 }
 #h2max4 {
 	margin: 0;
 	font-weight: lighter;
 }
-th #concert{
+#concert{
 	opacity: 0.5;
 	height: 50px;
 
