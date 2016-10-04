@@ -342,8 +342,9 @@ h9 {text-align:center;
     font-weight: bold;
     font-size: 12px;}
 
- th.sub1 .sub3 .sub4 {
-    	opacity: 0.5;
+#sub1{
+    opacity: 0.5;
+    padding-left:5%;
 }
 
 p20 {font-size: 10px;
