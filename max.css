@@ -186,6 +186,20 @@ i{
 	opacity: 0.5;
 }
 
+h24{
+	font-size:450%;
+	font-weight:lighter;}
+
+.sub24{
+	color:white;
+    font-size:300%;}
+
+.projet20 {	text-align: center;
+/*margin-bottom:0;
+padding-bottom: 120px;*/
+color:white;}
+
+
 /*page 3 photos - Morgane */
 .pp{
 	font-size:200%;
