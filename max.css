@@ -293,9 +293,28 @@ font-size: 15px;}
 	justify-content: space-around;
 margin : 3%;}
 
-/*page 7 tour - DJAMEL*/
 
-.h8 {
+h20 { color:white;
+     font-weight:bold;
+     font-size: 20px;}
+
+     h21 {color:white;
+font-size: 15px;}
+
+/*page 7 tour - DJAMEL*/
+.black{
+	height:350px;
+	background-color: black;
+	padding-left: 8%;
+	padding-right: 8%;
+}
+.listetour{
+	width: 100%;
+	padding-left: 8%;
+	padding-right: 8%;
+}
+
+h8 {
 	font-size:350%;
 	font-weight:lighter;}
 
@@ -312,12 +331,25 @@ p.subt {
 
 h9 {text-align:center;
     padding-left: 550px;
-    font-weight: bold;}
+    font-weight: bold;
+     font-size: 12px;}
 
-h10 {padding-left : 30px;
-    font-weight: bold;}
-h11 {padding-left: 30px;
-font-weight: bold;}
+ h10 {padding-left : 30px;
+    font-weight: bold;
+     font-size: 12px;}
+
+ h11 {padding-left: 30px;
+    font-weight: bold;
+    font-size: 12px;}
+
+ th.sub1 .sub3 .sub4 {
+    	opacity: 0.5;
+}
+
+p20 {font-size: 10px;
+     opacity: 0.5;}
+
+p19 {opacity: 0.5;}
 
 /*page 8 contact - Djamel*/
 .projet2{
