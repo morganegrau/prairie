@@ -61,7 +61,7 @@ p.sub {
 	opacity:0.5;
 }
 .container{
-color:white;
+    color:white;
 	background: url('maxi-challenge-1/images/background.jpg');
 	background-position:center;
 	background-size: cover;
@@ -110,9 +110,19 @@ color:white;
     margin-bottom: 0;
     padding: 1%;
 }
+
+.case2 {
+	width:30%;
+	height:100%;
+	display:inline-block;
+	border: solid rgba(255, 255, 255, 0.2) ;
+    border-width: 1px 1px 1px 1px;
+    margin-bottom: 0;
+    padding: 1%;}
 .viewall{
 	text-align: center;
 	margin-bottom:8%;
+	opacity: 0.5;
 }
 .casesbas {
 	display: inline-block;
@@ -126,6 +136,20 @@ color:white;
 	padding-left: 1%;
 	vertical-align: top;
 }
+
+
+ th.sub5 {
+    	opacity: 0.5;
+    	font-size: 12px; }
+th.sub6 {color:white;
+         font-size: 20px; }
+th.sub7 {opacity: 0.5;
+         font-size: 12px;
+         padding-left: 35px;
+         font-weight: bold;}
+th.sub8 {opacity: 0.5;
+         font-size : 12px;
+         padding-right: 50px;}
 
 .glyph{
 	text-align:center;
@@ -161,6 +185,103 @@ i{
 	padding-bottom: 5%;
 	opacity: 0.5;
 }
+
+/*page 3 photos - Morgane */
+.pp{
+	font-size:200%;
+	letter-spacing: 3px
+}
+
+.ligne1{
+	display:flex;
+	justify-content: space-between;
+}
+.ligne2{
+	display:flex;
+	justify-content: space-between;
+}
+.img4et5{
+	justify-content: space-between;
+}
+.imgfin{
+	justify-content: space-between;
+	display:flex;
+}
+
+/*page 4 music - Morgane */
+.container4{
+	color:white;
+	background: url('maxi-challenge-1/images/background.jpg');
+	background-position:center;
+	background-size: cover;
+	background-attachment: fixed;
+	padding-bottom: 5%;
+	height:650px;
+}
+.container4bis{
+	background: url('maxi-challenge-1/images/background.jpg');
+	background-position:center;
+	background-size: cover;
+	background-attachment: fixed;
+	background-blend-mode:soft-light;
+	background-color:#333;
+	padding-bottom: 4%;
+
+}
+#h1max4{
+	text-align: center;
+	font-size:450%;
+	color:white;
+	padding: 0;
+	margin: 0;
+}
+#pmax4{
+	text-align: center;
+	font-size:150%;
+}
+.zik{
+	height:400px;
+	padding-left:10%;
+	padding-right:10%;
+	display: flex;
+	}
+.aeolus{
+	width: 30%;
+	padding-top: 2%;
+	text-align: center;
+}
+.aeoluslist{
+	margin-top:10%;
+}
+.sub2 {
+	opacity:0.3;
+	font-weight:bold;
+	background-color:black;
+	background-opacity:0.5;
+	margin-bottom: 3%;
+	margin-top:0;
+	font-size:70%;
+	padding-top:3%;
+	padding-bottom:3%;
+}
+.listezik{
+	width: 70%;
+	margin-left: 5%;
+}
+#h2max4 {
+	margin: 0;
+	font-weight: lighter;
+}
+#concert{
+	opacity: 0.5;
+	height: 50px;
+}
+.basmax4{
+	padding-top:18%;
+	padding-left:10%;
+    padding-right:10%;
+}
+
 /*page News*/
 
 .projet20 {	text-align: center;
